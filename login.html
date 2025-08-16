@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samsung-Login</title>
+    <style>
+      body{
+        text-align: center;
+        border-style: solid;
+        border-color: aquamarine;
+        border-radius: 50px;
+        /* padding:50px ; */
+        margin-top: 150px;
+        margin-left: 420px;
+        margin-right: 420px;
+        object-fit:fill;
+        background-image: linear-gradient(to right, rgba(219, 209, 209, 0), rgb(126, 165, 166));
+      }
+      .th{
+        background-image: url(logins.jpg);
+        background-size: cover;
+        border-radius: 45px;
+        padding-bottom: 20px;
+        display:block;
+        margin-bottom: auto;
+        object-fit:fill;
+        box-shadow: 0px 0px 20px 20px rgb(241, 246, 175);
+      }
+      .th:hover{
+        background-color: brown;
+        box-shadow: 0px 0px 20px 20px rgb(235, 97, 97);
+      }
+     .th .input-box{
+        width: 100%;
+        height: 20px;
+        margin: 40px 0px;
+        padding: 20px;
+      }
+      .th h1{
+        font-size: 36px;
+        margin-left: 40px;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+      }
+      .th .input-button{
+        position: relative;
+        width: 100%;
+        height: 20px;
+        margin: 5px 30px;
+      }
+      .rf{
+        text-align:center;
+        margin-bottom: 10px;
+        margin-top: 50px;
+      }
+      .rf a{
+        text-decoration: none;
+        color: black;
+      }
+      .btn{
+        padding: 6px;
+        padding-right: 20px;
+        padding-left: 20px;
+        margin-left: 10px;
+        border-radius: 20px;
+      }
+      .btn:hover{
+        background-image: linear-gradient(to right, rgba(134, 12, 228, 0), rgb(101, 242, 244));
+      }
+      .register-link a{
+        color: black;
+      }
+      .input-box .un{
+        margin-top: 15px;
+        padding: 15px;
+        border-width: 80px;
+        border-radius: 20px;
+        border-style: none;
+      }
+    </style>
+</head>
+<body>
+    <div class="th">
+    <form action="">
+      <h1 class="un">Login</h1>
+      <div class="input-box">
+        <label>Username</label><br>
+        <input type="text" placeholder="Username" required class="un">
+      </div>
+      <div class="input-box">
+        <label class="un">Password</label><br>
+        <input type="password" placeholder="Password" required class="un"><br>
+      </div>
+      <div class="rf">
+        <a href="#">Forgot Password</a>
+      </div>
+      <a href="#index.html"><button type="submit" class="btn">Login</button></a>
+      <div class="register-link">
+        <p>Dont have an account? <a href="#">Register</a></p>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
